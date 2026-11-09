@@ -21,8 +21,8 @@ Objetivo: verificar se as orientações de energia são **compreendidas** e **ú
 
 | Pessoa | Situação | Casa simulada | Conseguiu? | Útil? | Tempo | Comentário |
 |---|---|---|---|---|---|---|
-| Pessoa 1 | S1 – simular a própria casa | 3 pessoas, 8 min, 5.500 W, meta 5 min | Sim | Sim | 36,8 s | _(preencher)_ |
-| Pessoa 2 | S1 – simular a própria casa | 2 pessoas, 10 min, 5.500 W, meta 6 min | Sim | Sim | 13,6 s | _(preencher)_ |
+| Pessoa 1 | S1 – simular a própria casa | 3 pessoas, 8 min, 5.500 W, meta 5 min | Sim | Sim | 36,8 s | "Achou simples." |
+| Pessoa 2 | S1 – simular a própria casa | 2 pessoas, 10 min, 5.500 W, meta 6 min | Sim | Sim | 13,6 s | "Achou bem prático e rápido." |
 
 ## Resultados (menu 3 – Indicadores)
 
