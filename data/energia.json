@@ -1,0 +1,148 @@
+{
+  "_sobre": "Premissas da análise de energia (SERS). tipo = 'real' (dado publicado, com fonte) ou 'estimado' (premissa da equipe, justificada). Mude os valores aqui e rode 'python energia.py' para refazer os cálculos.",
+  "periodo_referencia": "1 ano (365 dias)",
+  "casa_referencia": {
+    "pessoas": {
+      "valor": 4,
+      "unidade": "pessoas",
+      "tipo": "estimado",
+      "justificativa": "Família típica de um jovem que mora com os pais ou responsáveis."
+    },
+    "potencia_chuveiro_w": {
+      "valor": 5500,
+      "unidade": "W",
+      "tipo": "real",
+      "fonte": "IDEC - Economia com aquecedor solar (exemplo de chuveiro de 5.500 W), 17/04/2025",
+      "url": "https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar"
+    },
+    "minutos_banho_atual": {
+      "valor": 10,
+      "unidade": "min por pessoa por dia",
+      "tipo": "estimado",
+      "justificativa": "Valor de partida para a simulação; o usuário informa o próprio tempo no assistente."
+    },
+    "minutos_banho_meta": {
+      "valor": 6,
+      "unidade": "min por pessoa por dia",
+      "tipo": "estimado",
+      "justificativa": "Meta de redução de 4 minutos, alcançável sem trocar equipamento."
+    },
+    "vazao_chuveiro_l_min": {
+      "valor": 4,
+      "unidade": "L/min",
+      "tipo": "estimado",
+      "justificativa": "Chuveiros elétricos costumam ter vazão baixa (cerca de 3 a 6 L/min); usado só para estimar água economizada."
+    }
+  },
+  "tarifa": {
+    "sem_tributos_r_kwh": {
+      "valor": 0.78938,
+      "unidade": "R$/kWh",
+      "tipo": "real",
+      "fonte": "ANEEL REH nº 3.596/2026 - Enel SP, B1 residencial (TUSD R$ 472,42/MWh + TE R$ 316,96/MWh), vigente de 04/07/2026 a 03/07/2027, bandeira verde",
+      "url": "https://calculakwh.com.br/artigos/valor-do-kwh-enel-sp/"
+    },
+    "icms": {
+      "valor": 0.18,
+      "unidade": "fração",
+      "tipo": "real",
+      "fonte": "Alíquota de ICMS de energia em SP (teto da LC 194/2022)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp194.htm"
+    },
+    "pis_cofins": {
+      "valor": 0.05,
+      "unidade": "fração",
+      "tipo": "estimado",
+      "justificativa": "PIS/COFINS na conta de luz varia todo mês (aprox. 1% a 7%); usamos 5% como média."
+    }
+  },
+  "aquecedor_solar": {
+    "investimento_r": {
+      "valor": 4500,
+      "unidade": "R$",
+      "tipo": "estimado",
+      "justificativa": "Ponto médio da faixa de R$ 3.000 a R$ 6.000 para sistemas residenciais citada pelo IDEC.",
+      "fonte": "IDEC, 17/04/2025",
+      "url": "https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar"
+    },
+    "fracao_solar": {
+      "valor": 0.7,
+      "unidade": "fração do aquecimento",
+      "tipo": "estimado",
+      "justificativa": "Parte da água aquecida pelo sol; o resto vem do apoio elétrico em dias nublados e no inverno. Depende do dimensionamento e do clima."
+    },
+    "vida_util_anos": {
+      "valor": 15,
+      "unidade": "anos",
+      "tipo": "real",
+      "fonte": "IDEC: coletor dura 15 a 25 anos e boiler 10 a 15 anos (usamos 15, o valor conservador)",
+      "url": "https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar"
+    }
+  },
+  "fotovoltaica": {
+    "custo_kit_r_wp": {
+      "valor": 2.12,
+      "unidade": "R$/Wp",
+      "tipo": "real",
+      "fonte": "Canal Solar / Greener: kit residencial de 2 kWp a R$ 4.240 (preços de jan/2024, sem instalação)",
+      "url": "https://canalsolar.com.br/valor-da-energia-solar/"
+    },
+    "potencia_minima_kwp": {
+      "valor": 2.0,
+      "unidade": "kWp",
+      "tipo": "real",
+      "fonte": "Canal Solar / Greener: a faixa de kits residenciais começa em 2 kWp (R$ 4.240); sistemas menores não são vendidos como kit padrão",
+      "url": "https://canalsolar.com.br/valor-da-energia-solar/"
+    },
+    "acrescimo_instalacao": {
+      "valor": 0.3,
+      "unidade": "fração sobre o kit",
+      "tipo": "estimado",
+      "justificativa": "Mão de obra, projeto e homologação na distribuidora não estão no preço do kit."
+    },
+    "horas_sol_pleno": {
+      "valor": 4.5,
+      "unidade": "kWh/m²/dia",
+      "tipo": "estimado",
+      "justificativa": "A média do Brasil é cerca de 5,15 kWh/m²/dia (Atlas Brasileiro de Energia Solar); São Paulo fica abaixo da média. Conferir para o endereço no CRESESB SunData.",
+      "url": "https://cresesb.cepel.br/index.php?section=sundata"
+    },
+    "rendimento_sistema": {
+      "valor": 0.75,
+      "unidade": "fração",
+      "tipo": "estimado",
+      "justificativa": "Perdas por calor, sujeira, cabos e inversor."
+    },
+    "valor_compensado": {
+      "valor": 0.85,
+      "unidade": "fração da tarifa",
+      "tipo": "estimado",
+      "justificativa": "Pela Lei 14.300/2022, sistemas novos pagam parte do Fio B sobre a energia injetada, então o crédito vale menos que a tarifa cheia.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm"
+    },
+    "vida_util_anos": {
+      "valor": 25,
+      "unidade": "anos",
+      "tipo": "estimado",
+      "justificativa": "Garantia de desempenho usual dos módulos; o inversor costuma precisar de troca antes."
+    }
+  },
+  "emissao": {
+    "fator_sin_kg_kwh": {
+      "valor": 0.0247,
+      "unidade": "kg CO2/kWh",
+      "tipo": "real",
+      "fonte": "MCTI, fator médio de emissão do SIN, média de jan-abr/2025 (23,7; 24,8; 21,5; 28,9 kg/MWh)",
+      "url": "https://canalsolar.com.br/emissoes-de-co%e2%82%82-geracao-eletrica-mcti/"
+    }
+  },
+  "tarifa_social": {
+    "gratuidade_kwh": {
+      "valor": 80,
+      "unidade": "kWh/mês",
+      "tipo": "real",
+      "fonte": "ANEEL - Tarifa Social (MPV 1.300/2025): famílias com direito não pagam os primeiros 80 kWh do mês, desde 05/07/2025",
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/tarifa-social"
+    }
+  }
+}

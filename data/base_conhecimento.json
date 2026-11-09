@@ -1,0 +1,383 @@
+[
+  {
+    "id": 1,
+    "categoria": "Documentos",
+    "titulo": "Tirar o CPF pela primeira vez",
+    "palavras_chave": [
+      "cpf",
+      "tirar cpf",
+      "inscricao no cpf",
+      "cadastro de pessoa fisica",
+      "primeiro cpf"
+    ],
+    "resposta": "A inscrição no CPF é gratuita. Pode ser pedida pela internet, no site da Receita Federal, ou presencialmente em agências conveniadas (Correios, Banco do Brasil, Caixa), que podem cobrar uma pequena taxa.",
+    "documentos": [
+      "Documento de identidade com foto ou certidão de nascimento",
+      "Título de eleitor (se tiver entre 18 e 70 anos)"
+    ],
+    "onde": "Site da Receita Federal (gov.br/receitafederal) ou agências dos Correios, Banco do Brasil e Caixa",
+    "fonte": "https://www.gov.br/pt-br/servicos/inscrever-no-cpf",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 2,
+    "categoria": "Documentos",
+    "titulo": "Emitir a Carteira de Identidade Nacional (CIN)",
+    "palavras_chave": [
+      "rg",
+      "identidade",
+      "carteira de identidade",
+      "cin",
+      "documento com foto"
+    ],
+    "resposta": "A nova Carteira de Identidade Nacional usa o número do CPF. A primeira via é gratuita e é emitida pelo órgão de identificação do seu estado (em São Paulo, pelo Poupatempo). Normalmente é preciso agendar.",
+    "documentos": [
+      "Certidão de nascimento ou casamento",
+      "CPF"
+    ],
+    "onde": "Órgão de identificação do seu estado (em SP: Poupatempo, com agendamento)",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-identidade-nacional",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 3,
+    "categoria": "Documentos",
+    "titulo": "Tirar o título de eleitor",
+    "palavras_chave": [
+      "titulo de eleitor",
+      "titulo",
+      "eleitor",
+      "votar",
+      "alistamento eleitoral",
+      "autoatendimento eleitoral"
+    ],
+    "resposta": "O primeiro título pode ser pedido pela internet, no autoatendimento do TSE, ou no cartório eleitoral. É possível tirar a partir dos 15 anos (votando aos 16). O voto é obrigatório dos 18 aos 70 anos.",
+    "documentos": [
+      "Documento oficial com foto",
+      "Comprovante de residência",
+      "Selfie segurando o documento (no pedido pela internet)"
+    ],
+    "onde": "Autoatendimento Eleitoral no site do TSE (tse.jus.br) ou cartório eleitoral",
+    "fonte": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 4,
+    "categoria": "Documentos",
+    "titulo": "Criar conta gov.br",
+    "palavras_chave": [
+      "gov br",
+      "govbr",
+      "conta gov",
+      "login gov",
+      "senha gov"
+    ],
+    "resposta": "A conta gov.br é gratuita e dá acesso a vários serviços do governo, como a Carteira de Trabalho Digital. Crie pelo site ou pelo aplicativo gov.br usando o CPF. Contas prata ou ouro (validadas por banco ou biometria) liberam mais serviços.",
+    "documentos": [
+      "CPF",
+      "Celular ou e-mail próprio para receber o código"
+    ],
+    "onde": "Site acesso.gov.br ou aplicativo gov.br",
+    "fonte": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov.br",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 5,
+    "categoria": "Trabalho",
+    "titulo": "Ter a Carteira de Trabalho Digital",
+    "palavras_chave": [
+      "carteira de trabalho",
+      "carteira digital",
+      "ctps",
+      "carteira de trabalho digital",
+      "registro em carteira"
+    ],
+    "resposta": "A Carteira de Trabalho agora é digital e não precisa ser emitida: basta baixar o aplicativo Carteira de Trabalho Digital e entrar com a conta gov.br. O número dela é o próprio CPF.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Aplicativo Carteira de Trabalho Digital (Android e iPhone) ou site gov.br",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 6,
+    "categoria": "Trabalho",
+    "titulo": "Ser Jovem Aprendiz",
+    "palavras_chave": [
+      "jovem aprendiz",
+      "aprendiz",
+      "menor aprendiz",
+      "aprendizagem",
+      "primeiro emprego"
+    ],
+    "resposta": "O Jovem Aprendiz é para quem tem de 14 a 24 anos e está estudando ou já concluiu o ensino médio. O contrato é registrado em carteira, dura até 2 anos e junta trabalho com um curso de formação. Procure vagas em empresas e em entidades de aprendizagem (como SENAI, SENAC e CIEE).",
+    "documentos": [
+      "CPF",
+      "Documento com foto",
+      "Comprovante de matrícula escolar (se ainda estuda)"
+    ],
+    "onde": "Empresas, entidades de aprendizagem e o Portal Emprega Brasil",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 7,
+    "categoria": "Trabalho",
+    "titulo": "Regras do estágio",
+    "palavras_chave": [
+      "estagio",
+      "estagiario",
+      "bolsa estagio",
+      "termo de compromisso",
+      "horas de estagio"
+    ],
+    "resposta": "O estágio não é emprego com carteira assinada. Ele exige um termo de compromisso entre você, a empresa e a escola. A jornada vai até 6 horas por dia (30 por semana) para ensino superior e médio, e quem estagia 1 ano tem direito a 30 dias de recesso.",
+    "documentos": [
+      "Comprovante de matrícula",
+      "Termo de compromisso de estágio",
+      "CPF"
+    ],
+    "onde": "Setor de estágios da sua escola ou faculdade e agentes de integração (ex.: CIEE)",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 8,
+    "categoria": "Trabalho",
+    "titulo": "Procurar vagas de emprego no SINE",
+    "palavras_chave": [
+      "vaga",
+      "vagas",
+      "emprego",
+      "sine",
+      "procurar trabalho",
+      "emprega brasil",
+      "curriculo"
+    ],
+    "resposta": "O SINE divulga vagas de emprego de graça. Você pode se cadastrar e ver vagas pelo aplicativo Carteira de Trabalho Digital ou pelo Portal Emprega Brasil, ou ir a um posto do SINE (em SP também nos postos do PAT).",
+    "documentos": [
+      "CPF",
+      "Conta gov.br",
+      "Currículo (opcional)"
+    ],
+    "onde": "App Carteira de Trabalho Digital, Portal Emprega Brasil ou posto do SINE da sua cidade",
+    "fonte": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/sine",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 9,
+    "categoria": "Direitos do trabalhador",
+    "titulo": "Consultar o número do PIS",
+    "palavras_chave": [
+      "pis",
+      "numero do pis",
+      "nis",
+      "pasep",
+      "nit"
+    ],
+    "resposta": "O número do PIS/NIS aparece no aplicativo Carteira de Trabalho Digital, na parte de dados pessoais. Quem nunca trabalhou com carteira assinada pode não ter PIS ainda: ele é cadastrado pelo empregador no primeiro emprego.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br"
+    ],
+    "onde": "Aplicativo Carteira de Trabalho Digital ou agência da Caixa",
+    "fonte": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 10,
+    "categoria": "Direitos do trabalhador",
+    "titulo": "Pedir o seguro-desemprego",
+    "palavras_chave": [
+      "seguro desemprego",
+      "demitido",
+      "fui demitido",
+      "demissao"
+    ],
+    "resposta": "Quem foi demitido sem justa causa pode ter direito ao seguro-desemprego, desde que cumpra o tempo mínimo de trabalho exigido. O pedido é feito pelo aplicativo Carteira de Trabalho Digital ou pelo gov.br, usando a guia que a empresa entrega na demissão.",
+    "documentos": [
+      "CPF",
+      "Número do requerimento do seguro-desemprego (entregue pela empresa)",
+      "Conta gov.br"
+    ],
+    "onde": "App Carteira de Trabalho Digital, site gov.br ou posto do SINE",
+    "fonte": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 11,
+    "categoria": "Direitos do trabalhador",
+    "titulo": "Direitos básicos de quem tem carteira assinada",
+    "palavras_chave": [
+      "direitos",
+      "ferias",
+      "decimo terceiro",
+      "13 salario",
+      "fgts",
+      "salario minimo"
+    ],
+    "resposta": "Quem trabalha com carteira assinada tem direito, entre outros, a pelo menos um salário mínimo, 13º salário, férias de 30 dias com 1/3 a mais, depósitos de FGTS e descanso semanal remunerado.",
+    "documentos": [
+      "Carteira de Trabalho Digital",
+      "Contracheque (holerite)"
+    ],
+    "onde": "Em caso de dúvida ou problema: Superintendência Regional do Trabalho ou sindicato da categoria",
+    "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 12,
+    "categoria": "Documentos",
+    "titulo": "Fazer o alistamento militar",
+    "palavras_chave": [
+      "alistamento",
+      "alistamento militar",
+      "servico militar",
+      "reservista",
+      "exercito"
+    ],
+    "resposta": "Todo homem deve se alistar no ano em que completa 18 anos, de janeiro até o último dia útil de junho. O alistamento pode ser feito pela internet. Depois você acompanha as próximas etapas pelo mesmo site.",
+    "documentos": [
+      "Documento oficial com foto",
+      "CPF",
+      "Comprovante de residência"
+    ],
+    "onde": "Site alistamento.eb.mil.br ou Junta de Serviço Militar da sua cidade",
+    "fonte": "https://alistamento.eb.mil.br",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 13,
+    "categoria": "Trabalho",
+    "titulo": "Abrir um CNPJ como MEI (Microempreendedor Individual)",
+    "palavras_chave": [
+      "cnpj",
+      "mei",
+      "microempreendedor",
+      "abrir empresa",
+      "trabalhar por conta"
+    ],
+    "resposta": "Quem quer trabalhar por conta própria pode se formalizar como MEI e ganhar um CNPJ. A abertura é gratuita e feita pela internet, no Portal do Empreendedor, com a conta gov.br (nível prata ou ouro). Cuidado com sites que cobram para abrir o MEI: o caminho oficial não cobra nada.",
+    "documentos": [
+      "CPF",
+      "Conta gov.br nível prata ou ouro",
+      "Endereço de onde a atividade será feita"
+    ],
+    "onde": "Portal do Empreendedor (gov.br/mei)",
+    "fonte": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 14,
+    "categoria": "Energia",
+    "titulo": "Economizar energia no banho com chuveiro elétrico",
+    "palavras_chave": [
+      "chuveiro",
+      "banho",
+      "chuveiro eletrico",
+      "economizar energia",
+      "economizar luz",
+      "conta de luz alta",
+      "gastar menos luz",
+      "economia de energia"
+    ],
+    "resposta": "O chuveiro elétrico costuma ser o aparelho que mais gasta na casa. A conta é: energia (kWh) = potência (kW) x tempo (h). Um chuveiro de 5.500 W ligado 10 minutos gasta cerca de 0,92 kWh. Numa casa de 4 pessoas, reduzir o banho de 10 para 6 minutos economiza cerca de 535 kWh por ano, perto de R$ 46 por mês na tarifa da Enel SP com tributos estimados, além de cerca de 23 mil litros de água. Não precisa comprar nada. Para simular a sua casa, use a opção 5 do menu (Energia). É uma estimativa: o valor real depende do seu chuveiro e da tarifa do mês.",
+    "documentos": [
+      "Etiqueta ou manual do chuveiro (para ver a potência em W)",
+      "Uma conta de luz recente (para ver a tarifa e o consumo)"
+    ],
+    "onde": "Em casa. Simulação na opção 5 do menu (Energia > Simular a minha casa)",
+    "fonte": "IDEC - Economia com aquecedor solar (exemplo de chuveiro de 5.500 W): https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar ; tarifa ANEEL REH 3.596/2026 (Enel SP)",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 15,
+    "categoria": "Energia",
+    "titulo": "Pedir a Tarifa Social de Energia Elétrica",
+    "palavras_chave": [
+      "tarifa social",
+      "desconto na conta de luz",
+      "desconto conta de luz",
+      "luz de graca",
+      "baixa renda luz",
+      "cadunico luz",
+      "conta de luz desconto"
+    ],
+    "resposta": "A Tarifa Social é um benefício na conta de luz. Desde 5 de julho de 2025, as famílias com direito não pagam os primeiros 80 kWh consumidos no mês; o que passar disso é cobrado normalmente. Tem direito: família no CadÚnico com renda de até meio salário mínimo por pessoa; família no CadÚnico com renda de até 3 salários mínimos que tenha alguém com doença ou deficiência que precise de aparelho elétrico ligado; e quem recebe o BPC. O CadÚnico precisa estar atualizado nos últimos 2 anos. Em muitos casos a concessão é automática, mas vale conferir na conta ou pedir na distribuidora.",
+    "documentos": [
+      "Número de Identificação Social (NIS) ou cadastro no CadÚnico atualizado",
+      "Conta de luz no nome de alguém da família",
+      "Documento com foto do titular"
+    ],
+    "onde": "Distribuidora de energia (em SP, Enel) pelo app, site ou agência; CadÚnico no CRAS da sua cidade",
+    "fonte": "https://www.gov.br/aneel/pt-br/assuntos/tarifas/tarifa-social",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 16,
+    "categoria": "Energia",
+    "titulo": "Aquecedor solar de água vale a pena?",
+    "palavras_chave": [
+      "aquecedor solar",
+      "aquecimento solar",
+      "boiler",
+      "placa solar agua",
+      "energia solar banho",
+      "coletor solar"
+    ],
+    "resposta": "O aquecedor solar usa o sol para esquentar a água do banho, e o chuveiro elétrico só entra como apoio em dias nublados. Na nossa análise para uma casa de 4 pessoas em São Paulo, com o sol cobrindo cerca de 70% do aquecimento (estimativa), a economia fica perto de R$ 80 por mês. Com um investimento de cerca de R$ 4.500 (o IDEC cita R$ 3.000 a R$ 6.000), o sistema se pagaria em cerca de 5 anos; o IDEC fala em 2 a 7 anos. O coletor dura de 15 a 25 anos e o boiler de 10 a 15. Precisa de telhado com sol, caixa d'água e instalação hidráulica; quem mora de aluguel precisa de autorização. É uma estimativa, não uma garantia: peça pelo menos 3 orçamentos.",
+    "documentos": [
+      "Conta de luz recente",
+      "Fotos do telhado e da caixa d'água para o orçamento"
+    ],
+    "onde": "Empresas instaladoras da sua região (peça orçamentos e confira a etiqueta do Inmetro do equipamento)",
+    "fonte": "https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 17,
+    "categoria": "Energia",
+    "titulo": "Energia solar fotovoltaica no telhado",
+    "palavras_chave": [
+      "energia solar",
+      "painel solar",
+      "placa solar",
+      "fotovoltaica",
+      "fotovoltaico",
+      "geracao distribuida",
+      "energia solar no telhado"
+    ],
+    "resposta": "Os painéis fotovoltaicos transformam luz em eletricidade. A energia que sobra vai para a rede e vira crédito na conta (geração distribuída). Pela Lei 14.300/2022, sistemas novos pagam uma parte do uso da rede, então o crédito vale um pouco menos que a tarifa cheia, e a conta nunca zera (sempre há a taxa mínima). Na nossa análise, o kit mínimo de 2 kWp custa cerca de R$ 5.500 com instalação (estimativa) e, só com a energia do banho, se pagaria em cerca de 5 anos; a sobra ainda abate o resto da conta. Precisa de telhado com sol, projeto e homologação na distribuidora. É uma estimativa: a geração depende do sol no seu endereço (confira no CRESESB SunData).",
+    "documentos": [
+      "Conta de luz recente (para dimensionar o sistema)",
+      "Documento do imóvel ou autorização do proprietário"
+    ],
+    "onde": "Empresas integradoras de energia solar; homologação feita na distribuidora (em SP, Enel)",
+    "fonte": "Lei 14.300/2022: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm ; preços: https://canalsolar.com.br/valor-da-energia-solar/",
+    "verificado_em": "2026-11-09"
+  },
+  {
+    "id": 18,
+    "categoria": "Energia",
+    "titulo": "Entender a conta de luz: kWh, tarifa e bandeira",
+    "palavras_chave": [
+      "conta de luz",
+      "kwh",
+      "quilowatt",
+      "tarifa de energia",
+      "bandeira tarifaria",
+      "bandeira amarela",
+      "bandeira vermelha",
+      "entender conta de luz"
+    ],
+    "resposta": "A conta de luz cobra a energia usada no mês em kWh (quilowatt-hora). 1 kWh é um aparelho de 1.000 W ligado por 1 hora. O preço do kWh (tarifa) é definido pela ANEEL para cada distribuidora: na Enel SP, de 04/07/2026 a 03/07/2027, é de R$ 0,789 por kWh sem impostos; com ICMS e PIS/COFINS fica perto de R$ 1,03 (estimativa). A bandeira tarifária soma um valor extra quando a geração fica mais cara: na bandeira amarela são cerca de R$ 1,89 a mais a cada 100 kWh. Para saber o que mais gasta, multiplique a potência de cada aparelho pelo tempo de uso.",
+    "documentos": [
+      "Uma conta de luz recente"
+    ],
+    "onde": "Na própria conta de luz ou no app/site da distribuidora",
+    "fonte": "ANEEL - REH 3.596/2026 (Enel SP), resumo em https://calculakwh.com.br/artigos/valor-do-kwh-enel-sp/ ; bandeiras: https://www.gov.br/aneel/pt-br/assuntos/tarifas/bandeiras-tarifarias",
+    "verificado_em": "2026-11-09"
+  }
+]

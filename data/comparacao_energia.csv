@@ -1,0 +1,5 @@
+﻿alternativa;tipo;energia_rede_kwh_ano;custo_ano;economia_ano;investimento;payback_anos;vida_util_anos;saldo_vida_util;co2_evitado_kg_ano;agua_economizada_l_ano
+Situação atual;-;1338,33;1372,02;0;0;0;;;0,00;0
+A) Banho de 6 min;Eficiência (hábito);803,00;823,21;548,81;0;0;;;13,22;23360
+B) Aquecedor solar de água;Renovável (solar térmica);401,50;411,61;960,41;4500;4,69;15;9906,18;23,14;0
+C) Fotovoltaica 2,0 kWp;Renovável (solar elétrica);0;205,80;1166,21;5512,00;4,73;25;23643,37;33,06;0

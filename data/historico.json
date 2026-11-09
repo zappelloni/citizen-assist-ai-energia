@@ -1,0 +1,42 @@
+[
+  {
+    "data": "2026-11-09 17:10:21",
+    "origem": "energia",
+    "pergunta": "[energia] simulação 3p 8min 5500W meta 5min",
+    "id_orientacao": null,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 36.8
+  },
+  {
+    "data": "2026-11-09 17:11:05",
+    "origem": "energia",
+    "pergunta": "[energia] simulação 2p 10min 5500W meta 6min",
+    "id_orientacao": null,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 13.6
+  },
+  {
+    "data": "2026-11-09 17:41:31",
+    "origem": "energia",
+    "pergunta": "[energia] simulação 2p 10min 5500W meta 5min",
+    "id_orientacao": null,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 208.8
+  },
+  {
+    "data": "2026-11-09 17:42:39",
+    "origem": "energia",
+    "pergunta": "[energia] recomendações",
+    "id_orientacao": null,
+    "encontrou": true,
+    "ajudou": true,
+    "tentativas": 1,
+    "tempo_segundos": 59.8
+  }
+]
